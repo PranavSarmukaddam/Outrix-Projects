@@ -1,46 +1,48 @@
-# Outrix-Projects
+# 📊 Machine Learning Projects Collection
 
-# 🏠 House Price Prediction using Regression
-
-This repository contains a Jupyter Notebook (`House_Regression.ipynb`) that demonstrates how to predict house prices using a regression model. It includes data preprocessing, model training, evaluation, and visualization.
-
----
-
-## 📁 Project Structure
-
-- `House_Regression.ipynb` – Main notebook with the complete machine learning workflow.
+This repository contains three beginner-to-intermediate **Machine Learning projects** implemented in Python using **Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn**.  
+Each project demonstrates **data preprocessing, exploratory data analysis (EDA), model training, and evaluation**.
 
 ---
 
-## 🔧 Requirements
+## 📂 Projects Overview
 
-To run this notebook, you need the following Python libraries:
+### 1️⃣ Diabetes Prediction
+- **File:** [`Diabetes_Prediction.ipynb`](Diabetes_Prediction.ipynb)
+- **Goal:** Predict whether a patient has diabetes based on medical parameters like glucose level, BMI, and age.
+- **Key Steps:**
+  1. Data loading and cleaning.
+  2. Exploratory Data Analysis (EDA).
+  3. Classification model training (Logistic Regression, Random Forest, etc.).
+  4. Model evaluation with accuracy and confusion matrix.
 
-```
+---
+
+### 2️⃣ House Price Prediction (Regression)
+- **File:** [`House_Regression.ipynb`](House_Regression.ipynb)
+- **Goal:** Predict house prices based on features such as area, number of rooms, and location.
+- **Key Steps:**
+  1. Import and preprocess housing dataset.
+  2. Perform EDA to explore relationships between features and price.
+  3. Apply regression models (Linear Regression, Decision Tree Regressor).
+  4. Evaluate performance using MAE, MSE, RMSE, and R² score.
+
+---
+
+### 3️⃣ Student Performance Prediction
+- **File:** [`Student_Performance.ipynb`](Student_Performance.ipynb)
+- **Goal:** Predict student exam scores based on study time, parental education, and other factors.
+- **Key Steps:**
+  1. Load and clean student performance dataset.
+  2. Visualize patterns and correlations.
+  3. Train regression model to predict exam scores.
+  4. Evaluate using regression metrics.
+
+---
+
+## ⚙️ Installation & Requirements
+
+Install the necessary Python packages before running the notebooks:
+
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
-▶️ How to Run
-📌 Option 1: Using Anaconda Navigator
-Open Anaconda Navigator
-
-Launch Jupyter Notebook
-
-Navigate to the directory where House_Regression.ipynb is saved
-
-Open the notebook and click Run All or execute cells step by step
-
-
-📌 Option 2: Using Terminal or CMD
-
-# Step 1: Clone the repository or download the ZIP
-
-```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-# Step 2: Start Jupyter Notebook
-jupyter notebook
-
-# Step 3: In your browser, open House_Regression.ipynb and run all cells
